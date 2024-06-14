@@ -10,7 +10,7 @@
     <<img src="./assets/img/readme.png" alt="hero">
   </a>
 
-  <h3 align="center">Apir Tayo</h3>
+  <h3 align="center">NaiOyamat</h3>
 </div>
 <div align="center">
 </div>
@@ -21,7 +21,7 @@
 ![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanTamayo)
 
 
-![](https://visit-counter.vercel.app/counter.png?page=IanClass-FEU/WD-Seatwork_2_tamayo)
+![](https://visit-counter.vercel.app/counter.png?page=IanClass-FEU/WD-Seatwork-3)
 
 ---
 
