@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/IanClass-FEU/">
-    <<img src="./assets/img/readme.png" alt="Nyebe" width="130" height="100">
+    <<img src="./assets/img/readme.png" alt="hero" width="200" height="100">
   </a>
 
   <h3 align="center">Apir Tayo</h3>
