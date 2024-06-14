@@ -9,13 +9,13 @@ body, html {
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden; /* Avoid scrollbars */
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  background-color:rgba(255, 0, 0, 0);
+  background-color:rgba(248, 11, 11, 0.116);
 }
 
 video {
@@ -70,4 +70,28 @@ video {
 
 .button:hover {
   background-color: #e0e0e0;
+}
+
+.background-text {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  left:200px;
+  align-items: center;
+  font-size: 120px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  z-index: -1;
+  pointer-events: none;
+  padding: 10px 0;
+  line-height: 120px;
+}
+
+.right-text {
+  top: 0;
+  right: 0;
+  color: #ff0000;
+  font-family: "Merriweather", serif;
 }
