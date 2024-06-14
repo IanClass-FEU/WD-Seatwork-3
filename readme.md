@@ -7,14 +7,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/IanClass-FEU/">
-  <!-- Logo or Image -->
     <<img src="./assets/img/readme.png" alt="Nyebe" width="130" height="100">
   </a>
 
   <h3 align="center">Apir Tayo</h3>
 </div>
 <div align="center">
-  Resume
 </div>
 
 <br />
