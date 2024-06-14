@@ -1,21 +1,29 @@
-<a name="readme-top">
+# WD-Seatwork_2_Tamayo
+
+<a name="readme-top"/>
 
 <br/>
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/IanClass-FEU/">
+  <!-- Logo or Image -->
+    <img src="assets\readme assets\12305-raised-hand.png" alt="kamay" width="130" height="100">
   </a>
-  <h3 align="center">Seatwork 3: Footer & Header</h3>
+
+  <h3 align="center">Apir Tayo</h3>
 </div>
 <div align="center">
-  This is for demonstrating skills in HTML and CSS with Multiple Pages, Effects and Container Manipulations. Providing a Different Versions of Headers and Footers.
+  Resume
 </div>
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-3)
+## Waka time stats
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=IanTamayo)
+
+
+![](https://visit-counter.vercel.app/counter.png?page=IanClass-FEU/WD-Seatwork_2_tamayo)
 
 ---
 
