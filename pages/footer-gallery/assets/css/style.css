@@ -2,76 +2,95 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-a {
-    text-decoration: none;
-}
-
-/* Dev */
-section.design-one,
-section.design-one * {
-    /* outline: 1px dashed black; */
-}
-
-/* Dep */
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200vh;
-    width: 100vw;
-    overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
-section {
-    width: 100vw;
-    padding: 1rem 5vw;
-    display: flex;
-    gap: 1rem;
-    align-items: flex-end;
+
+/* General styles for both static and dynamic footers */
+.design-one {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
 }
 
-section.design-one {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    background: linear-gradient(75deg , rgb(159, 255, 159) 0%, rgb(219, 255, 219) 100% );
+    justify-content: space-between;
     align-items: flex-start;
-
-    & .company-logo {
-        height: 50px;
-    }
-
-    & .social-media {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        gap: .5rem;
-        height: 100%;
-
-        & i {
-            padding: .5rem;
-            border: 1px solid black;
-            border-radius: 50%;
-            height: 2.2rem;
-            width: 2.2rem;
-            transition: all .2s ease;
-        }
-    }
-
-    & .content {
-        padding-right: 20rem;
-    }
-
-    & .disclaimer {
-        font-size: .8rem;
-        width: 5vw;
-        display: flex;
-        align-items: center;
-        height: 100%;
-    }
-
-
 }
+
+.design-one .logo img {
+    max-width: 700px;
+    height: auto;
+}
+
+.design-one .footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.design-one .footer-section {
+    flex: 1;
+}
+
+.design-one .footer-section h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f6bd00;
+    padding-bottom: 5px;
+}
+
+.design-one .footer-section ul {
+    list-style-type: none;
+}
+
+.design-one .footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.design-one .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.design-one.dynamic .footer-section ul li a:hover {
+    color: #ffcc00;
+}
+
+.design-one.dynamic .footer-section ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, width 0.3s ease;
+}
+
+.design-one.dynamic .footer-section ul li a:hover::after {
+    background-color: #00bfff;
+    width: 110%;
+    animation: underline-expand 0.3s ease forwards;
+}
+
+@keyframes underline-expand {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 110%;
+    }
+}
+
+
+
+
