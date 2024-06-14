@@ -5,14 +5,7 @@
 }
 
 body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   background-color:rgba(248, 11, 11, 0.116);
@@ -32,6 +25,7 @@ video {
   height: 100vh;
   width: 100vw;
   position: relative;
+  background-color: rgb(55, 146, 116);
 }
 
 .content {
@@ -40,8 +34,8 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 1; 
-  text-align: center; 
+  z-index: 1;
+  background-color: aqua;
 }
 
 .hero-image {
@@ -70,28 +64,4 @@ video {
 
 .button:hover {
   background-color: #e0e0e0;
-}
-
-.background-text {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  left:200px;
-  align-items: center;
-  font-size: 120px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  z-index: -1;
-  pointer-events: none;
-  padding: 10px 0;
-  line-height: 120px;
-}
-
-.right-text {
-  top: 0;
-  right: 0;
-  color: #ff0000;
-  font-family: "Merriweather", serif;
 }
