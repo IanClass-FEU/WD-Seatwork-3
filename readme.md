@@ -60,6 +60,10 @@
 The purpose of this website is to present a collection of dynamic and static header and footer designs created exclusively using CSS. This project aims to showcase the versatility and power of CSS in creating visually appealing and functional web components without relying on JavaScript or external libraries.
 
 ### Key Components
+- Landing Page
+  - Live background
+  - Hover Effect
+
 - Header Animation
   - Hover Effect
   - Active Effect
