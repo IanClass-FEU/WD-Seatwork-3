@@ -116,4 +116,8 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | BOOTSTRAP ICONS | Used for incorporating icon in the header and footer | https://icons.getbootstrap.com/ |
-| W3School | Used as a guide for basic layout | trykolang.com |
+| Layout | Used as a guide for layout and basic trouble shooting problems | trykolang.com |
+| Layout designs | Used to find layout designs for landing page | https://www.instagram.com/uxui_howard.le
+| Reddit | Used to find character images for landing page and logo | https://www.reddit.com/r/ImaginaryBestOf |
+| Live Background | Used to find for background video for landing page | https://www.wallpaperengine.io/ |
+
