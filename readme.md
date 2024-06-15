@@ -10,8 +10,8 @@
     <img src="./assets/img/readme.png" alt="hero">
   </a>
 
-<h2 align ="center"> SEATWORK 3 </h2>
-  <h3 align="center">NaiOyamat</h3>
+<h2 align ="center"> NaiOyamat</h2>
+  <h3 align="center"> SEATWORK 3 </h3>
   <p> This website showcases a variety of dynamic and static header and footer designs created exclusively with CSS. </p>
 </div>
 <div align="center">
