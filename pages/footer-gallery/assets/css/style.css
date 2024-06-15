@@ -9,7 +9,7 @@ body {
 }
 
 
-/* General styles for both static and dynamic footers */
+
 .design-one {
     background-color: #000000;
     color: #fff;
@@ -100,7 +100,7 @@ body {
     text-align: center;
 }
 
-.container {
+.design-two .container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -109,57 +109,55 @@ body {
     align-items: center;
 }
 
-
-.footer-logo {
+.design-two .footer-logo {
     max-width: 500px;
     height: auto;
     display: block;
     margin-bottom: 20px;
 }
 
-.footer-message {
+.design-two .footer-message {
     margin-bottom: 20px;
 }
 
-
-.footer-links {
+.design-two .footer-links {
     font-size: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.footer-links i {
+.design-two .footer-links i {
     color: #ccc;
 }
 
-.social-link {
+.design-two .social-link {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s, text-decoration 0.3s;
 }
 
-.social-link:hover {
+.design-two .social-link:hover {
     color: #ffcc00;
     text-decoration: underline;
 }
 
 /* Dynamic Styles */
-.dynamic .footer-logo {
+.design-two.dynamic .footer-logo {
     transition: transform 0.3s ease-in-out;
     animation: bounce 2s ease-in-out infinite;
 }
 
-.dynamic .footer-links .bi {
+.design-two.dynamic .footer-links .bi {
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.dynamic .footer-logo:hover {
+.design-two.dynamic .footer-logo:hover {
     transform: scale(1.1);
 }
 
-.dynamic .footer-links .bi:hover {
+.design-two.dynamic .footer-links .bi:hover {
     color: #ffcc00;
     transform: scale(1.2);
 }
@@ -172,6 +170,190 @@ body {
         transform: translateY(-10px);
     }
 }
+
+
+
+
+
+.design-three {
+    background: rgb(194, 150, 16);
+    background: linear-gradient(315deg, rgba(194, 150, 16, 1) 12%, rgba(253, 29, 29, 1) 83%);
+    color: #fff;
+}
+
+.design-three .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.design-three .left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.design-three .footer-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.design-three .right-section {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.design-three .subscription-form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.design-three .subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(51, 51, 51, 0);
+    border: 1px solid #ffffff;
+    border-radius: 50px 0 0 50px;
+    flex: 1;
+    color: #fff;
+}
+
+.design-three .subscription-form button {
+    background-color: #ffcc00;
+    color: #666666;
+    border: none;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.design-three .subscription-form input[type="email"]::placeholder {
+    color: #ffffff;
+}
+
+.design-three .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.design-three .column {
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.design-three .column h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.design-three .column a {
+    display: block;
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.design-three.dynamic .column a::before,
+.design-three.dynamic .column a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: #dbd80b3b;
+    transition: height 0.3s ease;
+}
+
+.design-three .column a::before {
+    top: 0;
+    left: 0;
+}
+
+.design-three .column a::after {
+    bottom: 0;
+    left: 0;
+}
+
+.design-three .column a:hover::before {
+    height: 100%;
+}
+
+.design-three .column a:hover::after {
+    height: 100%;
+}
+
+.design-three hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #fdfcfc;
+}
+
+.design-three .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design-three .footer-bottom p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.design-three .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.design-three .social-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.design-three.dynamic .social-link:hover {
+    color: #eb3204;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
