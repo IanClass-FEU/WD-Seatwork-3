@@ -10,7 +10,9 @@
     <img src="./assets/img/readme.png" alt="hero">
   </a>
 
+<h2 align ="center"> SEATWORK 3 </h2>
   <h3 align="center">NaiOyamat</h3>
+  <p> This website showcases a variety of dynamic and static header and footer designs created exclusively with CSS. </p>
 </div>
 <div align="center">
 </div>
@@ -65,7 +67,7 @@ The purpose of this website is to present a collection of dynamic and static hea
   - Change Color Effect
   - Highlight Effect
 
-- Header Animation
+- Footer Animation
   - Hover Effect
   - Active Effect
   - Not Effect
