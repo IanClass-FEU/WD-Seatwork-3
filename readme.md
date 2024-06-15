@@ -55,14 +55,22 @@
 
 ## Overview
 
-Project demonstrate the coding of HTMl and CSS in different kinds of headers and footers in addition of animations. This is to have hands-on experience in coding and having an actual output.
+The purpose of this website is to present a collection of dynamic and static header and footer designs created exclusively using CSS. This project aims to showcase the versatility and power of CSS in creating visually appealing and functional web components without relying on JavaScript or external libraries.
 
 ### Key Components
 - Header Animation
   - Hover Effect
   - Active Effect
-  - Multi Layer Domino Effect
   - Not Effect
+  - Change Color Effect
+  - Highlight Effect
+
+- Header Animation
+  - Hover Effect
+  - Active Effect
+  - Not Effect
+  - Change Color Effect
+  - Highlight Effect
 
 
 ### Technology
@@ -107,4 +115,5 @@ WD-ProjectName
 
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| BOOTSTRAP ICONS | Used for incorporating icon in the header and footer | https://icons.getbootstrap.com/ |
+| W3School | Used as a guide for basic layout | trykolang.com |
