@@ -332,6 +332,89 @@ body {
 
 
 
+/* General styles for design-four */
+footer.design-four {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+
+footer.design-four .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer.design-four .left-section {
+    flex: 0 0 auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+footer.design-four .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+footer.design-four .footer-logo {
+ height: 200px;
+}
+
+footer.design-four .social-links, footer.design-four .contact-info {
+    width: 100%;
+}
+
+footer.design-four .social-links h4, footer.design-four .contact-info h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+footer.design-four .social-links ul, footer.design-four .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer.design-four .social-links ul li, footer.design-four .contact-info ul li {
+    margin-bottom: 5px;
+}
+
+footer.design-four .social-links ul li a, footer.design-four .contact-info ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+footer.design-four .social-links ul li a img, footer.design-four .contact-info ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer.design-four .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    padding: 10px 0;
+    background-color: #222;
+}
+
+
+
+
+
+
 
 
 
