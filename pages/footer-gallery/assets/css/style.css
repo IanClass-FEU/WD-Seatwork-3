@@ -93,4 +93,94 @@ body {
 
 
 
+.design-two {
+    background-color: #000000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-logo {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-message {
+    margin-bottom: 20px;
+}
+
+
+.footer-links {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links i {
+    color: #ccc;
+}
+
+.social-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.social-link:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Dynamic Styles */
+.dynamic .footer-logo {
+    transition: transform 0.3s ease-in-out;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.dynamic .footer-links .bi {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dynamic .footer-logo:hover {
+    transform: scale(1.1);
+}
+
+.dynamic .footer-links .bi:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
